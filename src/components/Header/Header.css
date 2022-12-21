@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
+  padding: 4.8rem 0;
+}
+.header-imagebox {
+  width: 60%;
+}
+.header-imagebox img {
+  width: 100%;
+}
+.header-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.header-title {
+  color: var(--very-dark-violet);
+  font-weight: var(--font-wt-bold);
+  font-size: 5.4rem;
+  line-height: 1.2;
+}
+.header-content {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  width: 80%;
+}
+.btn-cta {
+  align-self: flex-start;
+  border: none;
+  font-size: 1.6rem;
+  font-family: inherit;
+}
